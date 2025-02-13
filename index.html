@@ -17,18 +17,23 @@
             margin: 20px;
             line-height: 1.6;
         }
+
+        /* Stylish Heading */
         h1 {
-           font-size: 32px;
-    font-weight: bold;
-    background: linear-gradient(to right, #ff9800, #ff5722);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+            font-size: 32px;
+            font-weight: bold;
+            background: linear-gradient(to right, #ff9800, #ff5722);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
         }
+
         img {
             width: 100%;
             max-width: 800px;
             border-radius: 10px;
         }
+
         .content {
             max-width: 800px;
             margin: 20px auto;
@@ -37,12 +42,13 @@
             line-height: 1.6;
             padding: 0 20px;
         }
-        .cta-button {
+
+        /* Button Styling */
+        .cta-button, .whatsapp-button {
             display: inline-block;
             margin-top: 20px;
+            margin-bottom: 15px; /* Adds space below buttons */
             padding: 15px 30px;
-            background-color: #ff9800;
-            color: white;
             font-size: 20px;
             font-weight: bold;
             border-radius: 8px;
@@ -50,26 +56,35 @@
             box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
             transition: all 0.3s ease;
         }
+
+        /* Google Form Button (Orange) */
+        .cta-button {
+            background-color: #ff9800;
+            color: white;
+        }
+
         .cta-button:hover {
             background-color: #e68900;
             transform: scale(1.05);
         }
+
+        /* WhatsApp Contact Button (Green) */
         .whatsapp-button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 15px 30px;
             background-color: #25D366; /* WhatsApp Green */
             color: white;
-            font-size: 20px;
-            font-weight: bold;
-            border-radius: 8px;
-            text-decoration: none;
-            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-            transition: all 0.3s ease;
         }
+
         .whatsapp-button:hover {
             background-color: #1EBEA5;
             transform: scale(1.05);
+        }
+
+        /* Mobile Optimization */
+        @media (max-width: 600px) {
+            .content {
+                font-size: 16px;
+                padding: 0 10px;
+            }
         }
     </style>
 </head>
@@ -77,8 +92,8 @@
 
     <h1>🌿 Hoppy Academy - Online Biology Tutoring</h1>
 
-    <Blue Modern Professional LinkedIn Banner.png>
-    <img src="https://github.com/hoppyacademy/Learn-Biology-the-Smart-Way/blob/main/Blue%20Modern%20Professional%20LinkedIn%20Banner.png?raw=true" alt="Hoppy Academy Online Biology Classes">
+    <!-- Your Canva Image -->
+    <img src="YOUR_IMAGE_LINK" alt="Hoppy Academy Online Biology Classes">
 
     <!-- Informative Text -->
     <div class="content">
@@ -92,14 +107,14 @@
     </div>
 
     <!-- Google Form Button -->
-    <a class="cta-button" href="https://docs.google.com/forms/d/e/1FAIpQLSf5gguZDTtXcCarWclEhClKf4ryZpZyJDcSGd5OtL6HD-pzAw/viewform?usp=dialog"_blank">
+    <a class="cta-button" href="https://forms.google.com/YOUR-FORM-LINK" target="_blank">
         ✏️ Join Now - Enroll for Free!
     </a>
 
-    <br><br>
+    <br>
 
     <!-- WhatsApp Contact Button -->
-    <a class="whatsapp-button" href="https://wa.me/918086352250" target="_blank">
+    <a class="whatsapp-button" href="https://wa.me/YOUR-NUMBER" target="_blank">
         📞 Contact Us on WhatsApp
     </a>
 
